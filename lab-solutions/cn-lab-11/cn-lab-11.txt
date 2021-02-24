@@ -1,0 +1,38 @@
+cn-lab-11
+
+1. UDP
+
+2. > DHCP Discover - Src Port: 68, Dst Port: 67
+   > DHCP Offer - Src Port: 67, Dst Port: 68
+   > DHCP Request - Src Port: 68, Dst Port: 67
+   > DHCP Ack - Src Port: 67, Dst Port: 68
+   
+3. 	7c:c7:09:c8:e1:9b
+
+4. Option (53) - DHCP Message Type
+   Also DHCP Request has additional options 54 and 81
+
+5. 0x89672cbc
+   0x292c03e8
+   Transaction ID is used to differentaiate between different client requests by the DHCP server.
+
+6. Discover - Src IP: 0.0.0.0, Dst IP: 255.255.255.255
+   Offer - Src IP: 10.5.0.1, Dst IP: 10.5.0.107
+   Request - Src IP: 0.0.0.0, Dst IP: 255.255.255.255
+   Ack - Src IP: 10.5.0.1, Dst IP: 10.5.0.107
+
+7. 10.5.0.1
+
+8. Offered IP: 10.5.0.107, offer contained in the DHCP Offer Message.
+
+9. The Relay Agent IP Address is 0.0.0.0 indicating that no relay agent is used.
+
+10. Router line gives default gateway for the client.
+    Subent mask line gives the subnet mask for the client.
+
+11. The client accepts the IP in the response. It is in the Option (50) Requested IP Address field of the request message.
+
+12. The purpose of DHCP release message is to announce the lease of the assigned IP address. No acknowledgement is returned.
+    If the release message is lost, the DHCP server would have to wait for the lease time to pass before reassigning the IP.
+
+13. Yes. Before offering an IP, DHCP server issues an ARP to check that the IP is not already in use.

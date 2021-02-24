@@ -1,0 +1,36 @@
+cn-lab-9
+
+2
+
+1. Src IP: 10.5.0.107
+
+2. Protocol: ICMP (1)
+
+3. Header: 20 bytes, Total: 56 bytes, Payload: Total - Header = 36 bytes
+
+4. Not fragmented, since the more fragments bit in the flag is 0.
+
+5. Identification, Time to live, Header checksum
+
+6. Stay constant: version, header length, differentiated services, total length, flags, protocol, source, destination
+   Must stay constant: version, header length, differentiated services, total length, flags, protocol, source, destination
+   Must change: identification, time to live, header checksum
+
+7. The value in the identification field increments with each subsequent IMCP echo request.
+
+8. Identification: 0xff34 (65332), Time to live: 255
+
+9. Identification changes as each packet has a distinct identity.
+   Time to live remains unchanged as it is always same for first-hop router.
+
+10. Packet:5036 has been fragmented across more than one datagrams.
+
+11. More fragment flag bit is set indicating fragmentation. Zero fragment offset indicates first fragment. Total length is 1500 bytes.
+
+12. Non-zero fragment offset indicates its not the first fragment. More fragment flag set to 0 indicates last fragment.
+
+13. Total length, Flags (More fragments, Fragment offset), Header checksum
+
+14. 3 fragments for Packet:7656
+
+14. Total length, Flags (More fragments, Fragment offset), Header checksum

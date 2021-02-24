@@ -1,0 +1,67 @@
+cn-lab-7
+
+UDP
+
+1. 4 fields: source port, destination port, length, checksum. 2 additional fields: checksum status, stream index.
+
+2. Each field is 2 bytes longs.
+
+3. The length field gives the length of the total packet, including the header bytes as well as the encapsulated bytes.
+
+4. 2^16 - 1 - 8 = 65535 - 8 = 65527 bytes can be included in a UDP payload.
+
+5. Largest possible source port number is 2^16 - 1 = 65535
+
+6. The protocol number for UDP is 17 or 0x11.
+
+7. The destination port for the query is the same as the source port for the response packet. And the source port for the query is the same as the destination port for the response packet.
+
+TCP
+
+1. IP: 192.168.1.102, Port: 1161
+
+2. IP: 128.119.245.12, Port: 80
+
+3. IP: 10.5.2.205, Port: 49394
+
+4. Seq: 0, SYN flag set to 1.
+
+5. Seq: 0, Ack: 1, Ack is obtained by adding 1 to the original Seq, SYN and ACK flag set to 1.
+
+6. Seq: 1
+
+7. Seq: 1, 566, 2026, 3486, 4946, 6406
+	Seg: 1, 2, 3, 4, 5, 6
+	Sent Pkt: 4, 5, 7, 8, 10, 11,
+	Ack Pkt: 6, 9, 12, 14, 15, 16
+	Sent: 0.596858, 0.612118, 0.624407, 0.625071, 0.647786, 0.648538
+	Ack: 0.624318, 0.647675, 0.694466, 0.739499, 0.787680, 0.838183
+	RTT: 0.02746, 0.035557, 0.070059, 0.114428, 0.139894, 0.189645
+	Est RTT: 0.875*EstRTT + 0.125*SamRTT
+	Est RTT: 0.02746, 0.284721, 0.036670, 0.043765, 0.055781, 0.072514
+
+8. 1: 565, 2-6: 1460
+
+9. The min buffer space (receiver window) is 5840 as seen from the first ACK, and it grows on. The max value for sender window is 17520, while the max value for receiver window is 62780. So the sender is never throttled by the lack of receiver buffer space.
+
+10. There are no retransmitted packets as the sequence number is increasing continuously with respect to time and no previous smaller sequence number is seen among later larger sequence numbers, also verified from the Time Sequence Graph (Stephens).
+
+11. The difference between the ACK number of two consecutive ACKs indicate the the data received and acknowledged by a particular ACK.
+	1: 566, 2-6: 1460
+	Instances of cummulative ACK (1460*2 = 2920) are packets 60, 61, 69, 70 and so on.
+
+12. Throughput = total transmitted data / total transmission time
+	First sent pkt: 4, Last ack pkt: 203
+	Ack: 1, 164091
+	Data transmitted: 164091 - 1 = 164090 bytes
+	Time: 18:44:20.596858, 18:44:26.031556
+	Transmission time: 26.031556 - 20.596858 = 5.434698
+	Throughput: 30,193 bytes/sec
+
+13. As seen from the Time Sequence Graph (Stevens), the slowstart phase starts at 0 sec and ends at around 1.4 secs where congestion avoidance phase starts after that. Even in congestion control, we do not observe the explicit linear behaviour. Instead, the packets seem to be sent in batches of (4 + 5 = 9) which might be due to some sort of rate limit enforced by the HTTP server.
+
+14. As seen from the Time Sequence Graph (Stevens), the slowstart phase starts at 0 sec and ends at around 1.9 secs where congestion avoidance phase starts after that. The graph here is even different from the different one as it shows much random behaviour and also contains some retransmitted packets. But once again, the packets are being sent if batches albeit of non-uniform sizes.
+
+Conclusion
+
+In this lab, we took a look at the two major transport layer protocols, i.e. UDP and TCP. UDP is the connectionless, streamlined, no-frills protocol, and does not contain any extra features like flow and congestion control that might result in complexity. We handled some basic USP packets and examined their lengths and contents. TCP is the connection oriented protocol which contains multiple features like segment structure, reliable data transfer, flow control and congestion management. We analyzed some TCP segments and observed the use of sequence and acknowledgement numbers to achieve reliability. We also observed the two basic phases of TCP for congestion control, i.e. slowstart and congestion avoidance.

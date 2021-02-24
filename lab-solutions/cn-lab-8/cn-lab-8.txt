@@ -1,0 +1,70 @@
+cn-lab-8
+
+part 1
+
+step 2
+
+h - The browser loaded the page at www.osi.local
+
+step 3
+
+b - Layer 7: HTTP
+	1. The HTTP client sends a HTTP request to the server.
+
+c - Dest Port = 80
+
+d - Dest IP = 192.168.1.2
+
+e - Layer 2: Ehternet II Header 0030.A3EE.5422 >> 0060.3EEE.74E3
+
+f - Source IP: 192.168.1.1, Dest IP: 192.168.1.2
+	Layer 3
+
+	Source Port: 1025, Dest Port: 80
+	Layer 4
+
+	Host: www.osi.local
+	Layer 7
+
+h - Differences:
+	Layer 4: Source and Dest Ports are interchanged
+	Layer 3: Source and Dest IPs are interchanged
+	Layer 2: Source and Dest MACs are interchanged
+
+i - HTTP DATA..
+
+j - 2 tabs
+	Since it is the last event in the stream of traffic, there's no Outbound PDU Details tab
+
+part 2
+
+step 1
+
+b - DNS, ARP, TCP
+
+d - NAME: www.osi.local
+
+e - Device: PC0 (Client)
+	ADDRESS: 192.168.1.2
+
+f - 4. The TCP connection is successful.
+	5. The device sets the connection state to ESTABLISHED.
+
+g - This event closed the connection
+	4. The device sets the connection state to CLOSED.
+
+challenge
+
+Web Server listening at Port: 80 for web request
+Web Server listening at Port: 53 for DNS request
+
+conclusion
+
+The purpose of this lab was to investigate the TCP/IP and OSI models in action topology.
+The first part consisted of examining the HTTP web traffic.
+We learned how to switch from realtime to simulation mode, generate web (HTTP) traffic and explore the contents of the HTTP packet.
+We saw the PDU details of various events and visualized their encapsulation in OSI model.
+The second part consisted of displaying elements of the TCP/IP protocol suite.
+We learned how to view the additional events.
+We saw the additional types of DNS, ARP, TCP and examined their details.
+Lastly, through the challenge, we found the different ports the server listens at for different requests.

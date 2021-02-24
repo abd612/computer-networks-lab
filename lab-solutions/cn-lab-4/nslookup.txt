@@ -1,0 +1,69 @@
+Server:  UnKnown
+Address:  192.168.43.1
+
+Name:    e9566.dscb.akamaiedge.net
+Addresses:  2600:1417:7a:180::255e
+	  2600:1417:7a:185::255e
+	  104.85.53.97
+Aliases:  www.mit.edu
+	  www.mit.edu.edgekey.net
+
+----------
+
+Server:  UnKnown
+Address:  192.168.43.1
+
+mit.edu	nameserver = usw2.akam.net
+mit.edu	nameserver = ns1-37.akam.net
+mit.edu	nameserver = use2.akam.net
+mit.edu	nameserver = ns1-173.akam.net
+mit.edu	nameserver = asia2.akam.net
+mit.edu	nameserver = use5.akam.net
+mit.edu	nameserver = asia1.akam.net
+mit.edu	nameserver = eur5.akam.net
+
+asia2.akam.net	internet address = 95.101.36.64
+ns1-37.akam.net	internet address = 193.108.91.37
+ns1-37.akam.net	AAAA IPv6 address = 2600:1401:2::25
+asia1.akam.net	internet address = 95.100.175.64
+usw2.akam.net	internet address = 184.26.161.64
+eur5.akam.net	internet address = 23.74.25.64
+use5.akam.net	internet address = 2.16.40.64
+use5.akam.net	AAAA IPv6 address = 2600:1403:a::40
+ns1-173.akam.net	internet address = 193.108.91.173
+ns1-173.akam.net	AAAA IPv6 address = 2600:1401:2::ad
+use2.akam.net	internet address = 96.7.49.64
+
+----------
+
+Server:  UnKnown
+Address:  95.101.36.64
+
+----------
+
+Server:  UnKnown
+Address:  192.168.43.1
+
+Name:    www.uet.edu.pk
+Address:  111.68.102.6
+
+----------
+
+Server:  UnKnown
+Address:  192.168.43.1
+
+ox.ac.uk	nameserver = ns2.ja.net
+ox.ac.uk	nameserver = dns2.ox.ac.uk
+ox.ac.uk	nameserver = dns0.ox.ac.uk
+ox.ac.uk	nameserver = dns1.ox.ac.uk
+
+ns2.ja.net	internet address = 193.63.105.17
+ns2.ja.net	AAAA IPv6 address = 2001:630:0:45::11
+dns2.ox.ac.uk	internet address = 163.1.2.190
+dns0.ox.ac.uk	internet address = 129.67.1.190
+dns1.ox.ac.uk	internet address = 129.67.1.191
+
+----------
+
+Server:  UnKnown
+Address:  193.63.105.17

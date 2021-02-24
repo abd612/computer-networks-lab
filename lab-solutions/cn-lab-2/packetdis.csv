@@ -1,0 +1,8 @@
+"No.","Time","Source","Destination","Protocol","Length","Time to live","Info"
+"1301","08:17:32.936310","10.5.1.120","182.176.156.113","HTTP","289","128","GET /MFIwUDBOMEwwSjAJBgUrDgMCGgUABBT0MXB3rveIElndnl0j8v4md2bQRgQUOdr%2FyigUiqh0Ewi55A6p0vp%2BnWkCEQCc%2FEFPFPMmH0T4XM1RpOGH HTTP/1.1 "
+"1303","08:17:32.980570","182.176.156.113","10.5.1.120","OCSP","923","54","Response"
+"1549","08:17:38.148056","10.5.1.120","128.119.245.12","HTTP","479","128","GET /wireshark-labs/INTRO-wireshark-file1.html HTTP/1.1 "
+"1562","08:17:38.496240","128.119.245.12","10.5.1.120","HTTP","492","37","HTTP/1.1 200 OK  (text/html)"
+"1565","08:17:38.499350","128.119.245.12","10.5.1.120","HTTP","492","37","[TCP Spurious Retransmission] HTTP/1.1 200 OK  (text/html)"
+"1766","08:17:42.432565","10.5.1.120","128.119.245.12","HTTP","450","128","GET /favicon.ico HTTP/1.1 "
+"1782","08:17:42.798637","128.119.245.12","10.5.1.120","HTTP","538","37","HTTP/1.1 404 Not Found  (text/html)"

@@ -1,0 +1,246 @@
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : Haier
+   Primary Dns Suffix  . . . . . . . : 
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : TAP-Windows Adapter V9
+   Physical Address. . . . . . . . . : 00-FF-A0-8F-F4-C1
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Local Area Connection* 3:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter
+   Physical Address. . . . . . . . . : 7C-C7-09-C8-E1-9B
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Realtek RTL8723B Wireless LAN 802.11n USB 2.0 Network Adapter
+   Physical Address. . . . . . . . . : 7C-C7-09-C8-E1-9B
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   IPv6 Address. . . . . . . . . . . : 2400:fc00:4310:8004::4b(Preferred) 
+   Lease Obtained. . . . . . . . . . : Tuesday, September 25, 2018 12:36:43 AM
+   Lease Expires . . . . . . . . . . : Thursday, September 27, 2018 12:26:02 AM
+   IPv6 Address. . . . . . . . . . . : 2400:fc00:4310:8004:517e:54ef:5d5:9d84(Preferred) 
+   Temporary IPv6 Address. . . . . . : 2400:fc00:4310:8004:596d:7f83:a047:1ca0(Preferred) 
+   Link-local IPv6 Address . . . . . : fe80::517e:54ef:5d5:9d84%5(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 10.5.3.75(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.252.0
+   Lease Obtained. . . . . . . . . . : Tuesday, September 25, 2018 12:36:43 AM
+   Lease Expires . . . . . . . . . . : Wednesday, September 26, 2018 12:36:42 AM
+   Default Gateway . . . . . . . . . : fe80::2aa6:dbff:fe40:71bb%5
+                                       10.5.0.1
+   DHCP Server . . . . . . . . . . . : 10.5.0.1
+   DHCPv6 IAID . . . . . . . . . . . : 92063497
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-23-18-CB-BB-7C-C7-09-C8-E1-9B
+   DNS Servers . . . . . . . . . . . : 2001:4860:4860::8888
+                                       2001:4860:4860::8844
+                                       111.68.102.2
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter VirtualBox Host-Only Network:
+
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : VirtualBox Host-Only Ethernet Adapter
+   Physical Address. . . . . . . . . : 0A-00-27-00-00-09
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::5c61:8d6c:da48:fc9b%9(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 192.168.56.1(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 
+   DHCPv6 IAID . . . . . . . . . . . : 285868071
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-23-18-CB-BB-7C-C7-09-C8-E1-9B
+   DNS Servers . . . . . . . . . . . : fec0:0:0:ffff::1%1
+                                       fec0:0:0:ffff::2%1
+                                       fec0:0:0:ffff::3%1
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Tunnel adapter isatap.{00F742E9-9D69-4B21-A229-3B3AA0176EF4}:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft ISATAP Adapter
+   Physical Address. . . . . . . . . : 00-00-00-00-00-00-00-E0
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+
+Tunnel adapter isatap.{9E79E4E1-BDB9-4ED6-8F49-ABB470E87D93}:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft ISATAP Adapter #2
+   Physical Address. . . . . . . . . : 00-00-00-00-00-00-00-E0
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+
+----------
+
+Windows IP Configuration
+
+    www.google.com.pk
+    ----------------------------------------
+    Record Name . . . . . : www.google.com.pk
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 191
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 74.125.130.94
+
+
+    www.google.com.pk
+    ----------------------------------------
+    Record Name . . . . . : www.google.com.pk
+    Record Type . . . . . : 28
+    Time To Live  . . . . : 192
+    Data Length . . . . . : 16
+    Section . . . . . . . : Answer
+    AAAA Record . . . . . : 2404:6800:4003:c01::5e
+
+
+    win8.ipv6.microsoft.com
+    ----------------------------------------
+    Name does not exist.
+
+
+    dm2302.storage.live.com
+    ----------------------------------------
+    Record Name . . . . . : dm2302.storage.live.com
+    Record Type . . . . . : 5
+    Time To Live  . . . . : 53
+    Data Length . . . . . : 8
+    Section . . . . . . . : Answer
+    CNAME Record  . . . . : odc-dm2302-meta-geo.onedrive.akadns.net
+
+
+    Record Name . . . . . : odc-dm2302-meta-geo.onedrive.akadns.net
+    Record Type . . . . . : 5
+    Time To Live  . . . . : 53
+    Data Length . . . . . : 8
+    Section . . . . . . . : Answer
+    CNAME Record  . . . . : odc-dm2302-meta-brs.onedrive.akadns.net
+
+
+    Record Name . . . . . : odc-dm2302-meta-brs.onedrive.akadns.net
+    Record Type . . . . . : 5
+    Time To Live  . . . . : 53
+    Data Length . . . . . : 8
+    Section . . . . . . . : Answer
+    CNAME Record  . . . . : odc-dm2302-meta.onedrive.akadns.net.a-0011.dc-msedge.net.a-0011.a-msedge.net
+
+
+    Record Name . . . . . : odc-dm2302-meta.onedrive.akadns.net.a-0011.dc-msedge.net.a-0011.a-msedge.net
+    Record Type . . . . . : 5
+    Time To Live  . . . . : 53
+    Data Length . . . . . : 8
+    Section . . . . . . . : Answer
+    CNAME Record  . . . . : a-0011.a-msedge.net
+
+
+    beacons.gcp.gvt2.com
+    ----------------------------------------
+    Record Name . . . . . : beacons.gcp.gvt2.com
+    Record Type . . . . . : 5
+    Time To Live  . . . . : 209
+    Data Length . . . . . : 8
+    Section . . . . . . . : Answer
+    CNAME Record  . . . . : gae-nel-us-central.gcp.gvt2.com
+
+
+    Record Name . . . . . : gae-nel-us-central.gcp.gvt2.com
+    Record Type . . . . . : 5
+    Time To Live  . . . . : 209
+    Data Length . . . . . : 8
+    Section . . . . . . . : Answer
+    CNAME Record  . . . . : ghs.googlehosted.com
+
+
+    Record Name . . . . . : ghs.googlehosted.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 209
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 216.58.208.83
+
+
+    beacons.gcp.gvt2.com
+    ----------------------------------------
+    Record Name . . . . . : beacons.gcp.gvt2.com
+    Record Type . . . . . : 5
+    Time To Live  . . . . : 209
+    Data Length . . . . . : 8
+    Section . . . . . . . : Answer
+    CNAME Record  . . . . : gae-nel-us-central.gcp.gvt2.com
+
+
+    Record Name . . . . . : gae-nel-us-central.gcp.gvt2.com
+    Record Type . . . . . : 5
+    Time To Live  . . . . : 209
+    Data Length . . . . . : 8
+    Section . . . . . . . : Answer
+    CNAME Record  . . . . : ghs.googlehosted.com
+
+
+    Record Name . . . . . : ghs.googlehosted.com
+    Record Type . . . . . : 28
+    Time To Live  . . . . : 209
+    Data Length . . . . . : 16
+    Section . . . . . . . : Answer
+    AAAA Record . . . . . : 2a00:1450:4018:802::2013
+
+
+    clients4.google.com
+    ----------------------------------------
+    Record Name . . . . . : clients4.google.com
+    Record Type . . . . . : 5
+    Time To Live  . . . . : 170
+    Data Length . . . . . : 8
+    Section . . . . . . . : Answer
+    CNAME Record  . . . . : clients.l.google.com
+
+
+    Record Name . . . . . : clients.l.google.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 170
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 216.58.207.14
+
+
+    clients4.google.com
+    ----------------------------------------
+    Record Name . . . . . : clients4.google.com
+    Record Type . . . . . : 5
+    Time To Live  . . . . : 168
+    Data Length . . . . . : 8
+    Section . . . . . . . : Answer
+    CNAME Record  . . . . : clients.l.google.com
+
+
+    Record Name . . . . . : clients.l.google.com
+    Record Type . . . . . : 28
+    Time To Live  . . . . : 168
+    Data Length . . . . . : 16
+    Section . . . . . . . : Answer
+    AAAA Record . . . . . : 2a00:1450:4019:802::200e
+
+
+----------
+
+Windows IP Configuration
+
+Successfully flushed the DNS Resolver Cache.

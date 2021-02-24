@@ -1,0 +1,31 @@
+cn-lab-10
+
+Part 1
+
+1. Source IP: 10.5.0.107, Destination IP: 34.206.192.89
+
+2. IMCP packet is used to communicate network level information between hosts, not processes.
+   So port numbers are not required.
+
+3. Type: 8, Code: 0
+   Additional fields: Checksum, Identifier, Sequence number, Data
+   Checksum: 2 bytes, Identifier: 2 bytes, Sequence number: 2 bytes
+
+4. Type: 0, Code: 0
+   Additional fields: Checksum, Identifier, Sequence number, Data
+   Checksum: 2 bytes, Identifier: 2 bytes, Sequence number: 2 bytes
+
+Part 2
+
+5. Source IP: 10.5.0.107, Destination IP: 128.93.162.84
+
+6. The protocol number would be that for UDP, i.e. 0x11 or 17
+
+7. The IMCP echo packet is same as the IMCP ping query packet, except for data size.
+
+8. The IMCP error packet has two additional fields containing IP header (20 bytes) and ICMP header (8 bytes) of the original packet
+
+9. The last three packets are IMCP reply packets with type 0. They have reached the destination before getting expired.
+
+10. No such in this case. But significantly longer delay would indicate cross-country link.
+
